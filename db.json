@@ -1,0 +1,52 @@
+{
+  "seller": [
+    {
+      "name": "ravi kumar dueby",
+      "email": "dubey.ravi7@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "komal",
+      "email": "komal@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "vishal",
+      "password": "123",
+      "email": "yadav@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "rahul",
+      "password": "singh",
+      "email": "rahul@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "RAVI22",
+      "password": "12321",
+      "email": "sachin11athak90@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "RAVI",
+      "password": "123",
+      "email": "dubey.ravi7@gamil.com",
+      "id": 6
+    },
+    {
+      "name": "RAVI",
+      "password": "123",
+      "email": "sachinpathak90@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "seema",
+      "password": "seema123",
+      "email": "seema@gmail.com",
+      "id": 8
+    }
+  ]
+}
