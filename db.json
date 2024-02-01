@@ -5,18 +5,6 @@
       "email": "dubey.ravi7@gmail.com",
       "password": "123",
       "id": 1
-    },
-    {
-      "name": "komal",
-      "email": "komal@gmail.com",
-      "password": "123",
-      "id": 2
-    },
-    {
-      "name": "pallvi",
-      "password": "123",
-      "email": "pallavi@gmail.com",
-      "id": 3
     }
   ]
 }

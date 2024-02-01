@@ -8,7 +8,6 @@ import { userLogin } from '../data-type';
 export class SellerService {
 
   constructor(private http:HttpClient) { }
-
   userSingnUp(data:SignUp){
      return this.http.post("http://localhost:3000/seller",data)
   }

@@ -11,11 +11,7 @@ export class AuthLoginComponent implements OnInit {
   constructor(private seller:SellerService ,private router:Router){}
   ngOnInit(): void {}
   userLogin(data:userLogin):void{
-    this.seller.userLogin(data).subscribe((result)=>{
-     console.log(result);
-       if(result){
-         this.router.navigate(['seller-home'])
-       }
-    });
+    console.log(data);
+    this.seller.userLogin(data);
  }
 }

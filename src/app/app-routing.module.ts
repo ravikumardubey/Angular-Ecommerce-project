@@ -8,22 +8,23 @@ import { AuthLoginComponent } from './auth-login/auth-login.component';
 
 const routes: Routes = [
   {
-    path:'home',
     component:HomeComponent,
+    path:'home',
   },
   {
-    path:'seller-outh',
     component:SellerAuthComponent,
+    path:'seller-outh',
   },
   {
-    path:'seller-home',
     component:SellerHomeComponent,
+    path:'seller-home',
     canActivate:[authGuard]
   },
   {
-    path:'outh-login',
     component:AuthLoginComponent,
-  }
+    path:'outh-login',
+  },
+  
 ];
 
 @NgModule({
