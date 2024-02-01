@@ -1,7 +1,7 @@
 <div class="seller-auth">
     <div class="signup">
         <h2 class="heading">User login</h2>
-        <form #userLogin="ngForm"  class="comman-form">
+        <form #userlogin="ngForm" (ngSubmit)="userLogin(userlogin.value)"  class="comman-form">
             <input class="form-input" type="text" ngModel name="userid" placeholder="Enter user id"> 
             <input class="form-input" type="text" ngModel name="password" placeholder="Enter password"> 
             <button class="form-button">Login</button>
