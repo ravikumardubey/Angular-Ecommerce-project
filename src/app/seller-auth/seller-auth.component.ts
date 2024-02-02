@@ -12,11 +12,6 @@ export class SellerAuthComponent implements OnInit{
     ngOnInit():void{}
 
     signUp(data:SignUp):void{
-       this.seller.userSingnUp(data).subscribe((result)=>{
-        console.log(result);
-          if(result){
-            this.router.navigate(['seller-home'])
-          }
-       });
+       this.seller.userSingnUp(data)
     }
 }
